@@ -1,1 +1,1 @@
-# gateproc
+# gate

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ardnew/gateproc/errs"
+	"github.com/ardnew/gate/errs"
 	flag "github.com/spf13/pflag"
 )
 

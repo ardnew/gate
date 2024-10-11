@@ -1,4 +1,4 @@
-module github.com/ardnew/gateproc
+module github.com/ardnew/gate
 
 go 1.23.1
 

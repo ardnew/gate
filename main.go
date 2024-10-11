@@ -10,8 +10,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/ardnew/gateproc/errs"
-	"github.com/ardnew/gateproc/option"
+	"github.com/ardnew/gate/errs"
+	"github.com/ardnew/gate/option"
 	"github.com/containerd/fifo"
 )
 
@@ -36,7 +36,7 @@ DESCRIPTION
 	%[1]s uses a named fifo to enable one command to gate execution of another.
 
 	The named fifo path is intialized with either the environment variable
-	GATEPROC_FIFO or the command-line flag [-f|--fifo].
+	GATE_FIFO or the command-line flag [-f|--fifo].
 	It is removed after both the sender and receiver have closed the fifo.
 
 	The sender closes the fifo after writing all data and signals EOF.
